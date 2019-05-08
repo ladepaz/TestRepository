@@ -97,7 +97,7 @@ function create() {
 	
 	
 	//create 12 stars evenly distributed
-	for (var i = 0; i < 12; i++)
+	for (var i = 0; i < 6; i++)
 	{
 		//make star in stars group
 		var star = stars.create(i * 70, 0, 'star');
