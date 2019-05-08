@@ -4,6 +4,7 @@ var platforms;
 var score = 0;
 var scoreText;
 var ground;
+var score = 10;
 
 function preload() {
 	
