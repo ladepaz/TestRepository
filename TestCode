@@ -1,10 +1,15 @@
 //code taken from first assignment
 var game = new Phaser.Game(600, 800, Phaser.AUTO, '', { preload: preload, create: create, update: update });
 var platforms;
+
 var score = 0;
 var scoreText;
 var ground;
+
 var num = 20;
+
+
+
 function preload() {
 	
 	// preload assets used in the game
