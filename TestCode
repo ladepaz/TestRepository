@@ -4,7 +4,7 @@ var platforms;
 var score = 0;
 var scoreText;
 var ground;
-
+var num = 20;
 function preload() {
 	
 	// preload assets used in the game
