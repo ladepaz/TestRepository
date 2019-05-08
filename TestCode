@@ -1,11 +1,14 @@
 //code taken from first assignment
 var game = new Phaser.Game(600, 800, Phaser.AUTO, '', { preload: preload, create: create, update: update });
 var platforms;
-var num = 22;
+
 var score = 0;
 var scoreText;
 var ground;
-var score = 10;
+
+var num = 20;
+
+
 
 function preload() {
 	
